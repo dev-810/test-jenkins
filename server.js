@@ -2,7 +2,7 @@ const express = require('express')
 const app = express()
 
 app.use('/',(req,res)=>{
-	res.send("docker")
+	res.send("docker V1.1")
 })
 
 app.listen(4000,'0.0.0.0',()=>{
